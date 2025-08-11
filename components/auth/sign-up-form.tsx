@@ -40,7 +40,7 @@ export function SignUpForm() {
     },
   })
 
-  async function onSubmit(values: z.infer<typeof signUpSchema>) {
+  async function onSubmit(data: z.infer<typeof signUpSchema>) {
     setIsLoading(true)
 
     try {

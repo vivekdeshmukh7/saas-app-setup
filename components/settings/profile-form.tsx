@@ -44,8 +44,8 @@ export function ProfileForm() {
   })
 
   function onSubmit(data: ProfileFormValues) {
-    // Add your form submission logic here
-    console.log(data)
+    toast.success('Profile updated successfully');
+    console.log(data);
   }
 
   return (
